@@ -1,0 +1,114 @@
+:root {
+  --preto: #10131c;
+  --roxo: #201130;
+  --verde: #91ff00;
+  --ciano: #26f8bb;
+}
+
+@font-face {
+  font-family: Brandon;
+  src: url("../brandonFont/Brandon_thin.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Brandon;
+  src: url("../brandonFont/Brandon_med.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Brandon;
+  src: url("../brandonFont/Brandon_blk.otf");
+  font-weight: 800;
+}
+
+* {
+  font-family: Brandon;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.shadow {
+  box-shadow: -3px -2px 20px #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  background-image: linear-gradient(195deg, var(--preto), 80%, var(--roxo));
+  height: 1000px;
+}
+
+/* TOPO MENU */
+
+.top-menu {
+  width: 100%;
+  height: 80px;
+  background-color: var(--preto);
+  z-index: 0;
+}
+
+.topo {
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  width: 20px;
+  height: 950px;
+  background-color: var(--preto);
+  position: absolute;
+  z-index: 2;
+}
+
+.bar-right {
+  width: 20px;
+  height: 950px;
+  background-color: var(--preto);
+  position: absolute;
+  z-index: 2;
+  transform: translateX(340px);
+}
+
+.logo {
+  width: 70px;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: red;
+  height: 37px;
+  width: 80px;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-green {
+  background-image: linear-gradient(to left, var(--ciano), var(--verde));
+}
+
+#top10 {
+  font-weight: 500;
+  transform: translateX(175px);
+}
+
+#add {
+  font-weight: 500;
+  width: 120px;
+  transform: translate(20px, 20px);
+}
+
+/* CONTEUDO */
+.txt-title {
+  color: #fff;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 54px;
+}
