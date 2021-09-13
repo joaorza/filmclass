@@ -18,7 +18,12 @@
         require_once('./parts/Melhores.php');
         ?>
 
-
+        <div class="ver-todos-div flex">
+            <div id="ver-todos" class="btn flex btn-green">
+                <span>VER </span>
+                <p style="margin-left: 5px; font-weight: 800">TODOS</p>
+            </div>
+        </div>
     </div>
 
     <script src="./js/script.js"></script>
