@@ -1,14 +1,13 @@
 <div class="top-menu shadow flex">
     <!-- TOPO -->
     <div class="topo flex">
-        <img src="./img/logo.png" class="logo">
+        <img src="./img/Logo.png" class="logo">
         <div id="top10" class="btn flex btn-green">
             <p>TOP 10</p>
         </div>
     </div>
 
     <!-- OPÇÃO DE ADICIONAR -->
-
 
 </div>
 <div class="bar"></div>

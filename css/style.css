@@ -100,7 +100,7 @@ body {
 }
 
 #top10:hover {
-  box-shadow: -3px -2px 50px -8px var(--ciano);
+  box-shadow: -3px -2px 50px -1px var(--ciano);
 }
 
 #add {
@@ -110,7 +110,7 @@ body {
 }
 
 #add:hover {
-  box-shadow: -3px -2px 50px -8px var(--ciano);
+  box-shadow: -3px -2px 50px -1px var(--ciano);
 }
 
 #ver-todos {
@@ -121,7 +121,7 @@ body {
 }
 
 #ver-todos:hover {
-  box-shadow: -3px -2px 50px -8px var(--ciano);
+  box-shadow: -3px -2px 50px -1px var(--ciano);
 }
 
 .ver-todos-div {
